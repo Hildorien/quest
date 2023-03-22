@@ -174,6 +174,7 @@ void gen_taxrules(TaxPar &par)
 	trans->write_asc(data_fp);
       else 
 	trans->write(data_fp);
+	  
       delete trans;
     }
   
